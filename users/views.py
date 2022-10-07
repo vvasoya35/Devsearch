@@ -104,7 +104,6 @@ def userProfile(request, pk):
     context = {'profile':profile,
                'topSkills':topSkills,
                'otherSkills':otherSkills,
-               
                }
     return render(request,'users/user-profile.html',context)
 
