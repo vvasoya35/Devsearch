@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-fuh8aerj@81@qp9(epj+_rm!09s7d^lf$dk=-)$$t0@_*+w4%g
 DEBUG = False
 SESSION_COOKIE_SECURE=True
 CSRF_COOKIE_SECURE=True
-SECURE_SSL_REDIRECT = False
+# SECURE_SSL_REDIRECT = False
 # ALLOWED_HOSTS = ['https://vdevsearch.herokuapp.com/','vdevsearch.herokuapp.com/','vdevsearch.herokuapp.com','http://127.0.0.1/','http://127.0.0.1:8000/','127.0.0.1:8000','127.0.0.1']
 ALLOWED_HOSTS = [".herokuapp.com", "localhost", "127.0.0.1"]
 
@@ -99,7 +99,7 @@ SIMPLE_JWT = {
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     
-    "whitenoise.middleware.WhiteNoiseMiddleware",
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     
     'django.contrib.sessions.middleware.SessionMiddleware',
     
