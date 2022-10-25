@@ -28,7 +28,7 @@ DEBUG = False
 SESSION_COOKIE_SECURE=True
 CSRF_COOKIE_SECURE=True
 # SECURE_SSL_REDIRECT = False
-ALLOWED_HOSTS = ['https://vdevsearch.herokuapp.com/','vdevsearch.herokuapp.com/','vdevsearch.herokuapp.com','http://127.0.0.1/','http://127.0.0.1:8000/','127.0.0.1:8000','127.0.0.1']
+ALLOWED_HOSTS = ['https://vdevsearch.herokuapp.com/','vdevsearch.herokuapp.com/','.herokuapp.com','http://127.0.0.1/','http://127.0.0.1:8000/','127.0.0.1:8000','127.0.0.1']
 # ALLOWED_HOSTS = [".herokuapp.com", "localhost", "127.0.0.1"]
 
 
